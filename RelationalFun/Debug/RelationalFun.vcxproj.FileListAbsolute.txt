@@ -1,0 +1,2 @@
+E:\Programming\Repos\RelationalFun\Debug\RelationalFun.exe
+E:\Programming\Repos\RelationalFun\Debug\RelationalFun.pdb

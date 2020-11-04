@@ -1,0 +1,2 @@
+E:\Programming\Repos\ArithmeticFun\Debug\ArithmeticFun.exe
+E:\Programming\Repos\ArithmeticFun\Debug\ArithmeticFun.pdb

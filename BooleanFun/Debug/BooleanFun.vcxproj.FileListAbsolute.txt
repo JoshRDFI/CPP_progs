@@ -1,0 +1,2 @@
+E:\Programming\Repos\BooleanFun\Debug\BooleanFun.exe
+E:\Programming\Repos\BooleanFun\Debug\BooleanFun.pdb

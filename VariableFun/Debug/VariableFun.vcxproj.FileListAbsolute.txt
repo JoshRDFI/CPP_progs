@@ -1,0 +1,2 @@
+E:\Programming\Repos\VariableFun\Debug\VariableFun.exe
+E:\Programming\Repos\VariableFun\Debug\VariableFun.pdb

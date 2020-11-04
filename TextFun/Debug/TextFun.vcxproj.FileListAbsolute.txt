@@ -1,0 +1,2 @@
+E:\Programming\Repos\TextFun\Debug\TextFun.exe
+E:\Programming\Repos\TextFun\Debug\TextFun.pdb
