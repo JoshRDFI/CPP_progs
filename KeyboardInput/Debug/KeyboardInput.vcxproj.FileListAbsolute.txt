@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\KeyboardInput\Debug\KeyboardInput.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\KeyboardInput\Debug\KeyboardInput.pdb
