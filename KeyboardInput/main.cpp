@@ -8,10 +8,11 @@ int main()
 	string nameIs;
 	cout << "What is your age? " << endl;
 	
-	getline (cin, age);
+	cin >> age;
 
 	cout << "What is your name? " << endl;
-	cin >> nameIs;
+	getline(cin, nameIs);
+
 	cout << "Your name is " << nameIs << " and ";
 	cout << "you are " << age << " years old." << endl;
 
