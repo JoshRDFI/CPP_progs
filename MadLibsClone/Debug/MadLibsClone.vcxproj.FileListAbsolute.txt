@@ -1,0 +1,2 @@
+E:\Programming\Repos\MadLibsClone\Debug\MadLibsClone.exe
+E:\Programming\Repos\MadLibsClone\Debug\MadLibsClone.pdb

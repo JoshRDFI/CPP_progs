@@ -1,0 +1,2 @@
+E:\Programming\Repos\AverageofThree\Debug\AverageofThree.exe
+E:\Programming\Repos\AverageofThree\Debug\AverageofThree.pdb
