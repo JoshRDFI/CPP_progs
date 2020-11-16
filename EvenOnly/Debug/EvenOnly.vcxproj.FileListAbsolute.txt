@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\EvenOnly\Debug\EvenOnly.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\EvenOnly\Debug\EvenOnly.pdb

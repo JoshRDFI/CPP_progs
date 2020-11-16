@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\SumFun\Debug\SumFun.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\SumFun\Debug\SumFun.pdb
