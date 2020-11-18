@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\Project3-02_OddsAndEvens\Debug\Project3-02_OddsAndEvens.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\Project3-02_OddsAndEvens\Debug\Project3-02_OddsAndEvens.pdb
