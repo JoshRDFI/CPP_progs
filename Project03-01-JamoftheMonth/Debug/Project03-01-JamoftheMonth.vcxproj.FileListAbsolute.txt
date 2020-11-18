@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\Project03-01-JamoftheMonth\Debug\Project03-01-JamoftheMonth.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\Project03-01-JamoftheMonth\Debug\Project03-01-JamoftheMonth.pdb
