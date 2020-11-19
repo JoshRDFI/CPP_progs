@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\MoreArrayFun\Debug\MoreArrayFun.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\MoreArrayFun\Debug\MoreArrayFun.pdb
