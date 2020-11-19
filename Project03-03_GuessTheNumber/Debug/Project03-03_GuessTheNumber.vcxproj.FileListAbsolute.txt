@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\Project03-03_GuessTheNumber\Debug\Project03-03_GuessTheNumber.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\Project03-03_GuessTheNumber\Debug\Project03-03_GuessTheNumber.pdb
