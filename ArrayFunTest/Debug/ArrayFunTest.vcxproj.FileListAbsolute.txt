@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\ArrayFunTest\Debug\ArrayFunTest.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\ArrayFunTest\Debug\ArrayFunTest.pdb
