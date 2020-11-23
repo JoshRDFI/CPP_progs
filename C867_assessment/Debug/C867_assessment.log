@@ -7,7 +7,6 @@ CommonProgramW6432 = C:\Program Files\Common Files
 COMPUTERNAME = SDF-1
 ComSpec = C:\WINDOWS\system32\cmd.exe
 DriverData = C:\Windows\System32\Drivers\DriverData
-ForceIdentityAuthenticationType = Embedded
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 FPS_BROWSER_USER_PROFILE_STRING = Default
 HOMEDRIVE = C:
@@ -33,9 +32,8 @@ ProgramFiles(x86) = C:\Program Files (x86)
 ProgramW6432 = C:\Program Files
 PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\Wired Networking\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
 PUBLIC = C:\Users\Public
-ServiceHubLogSessionKey = 63ED1017
+ServiceHubLogSessionKey = AB1090F4
 SESSIONNAME = Console
-SignInWithHomeTenantOnly = False
 SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
 SW_SIM_MPIT = INTELMPI
 SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
@@ -58,9 +56,8 @@ VSLANG = 1033
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
+  main.cpp
+  roster.cpp
   student.cpp
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\student.cpp(14,80): error C2143: syntax error: missing '}' before '['
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\student.cpp(14,81): error C2760: syntax error: unexpected token 'constant', expected 'id-expression'
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\student.cpp(14,83): error C2059: syntax error: ','
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\student.cpp(14,99): error C2143: syntax error: missing ';' before '}'
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\student.cpp(14,99): error C2059: syntax error: '}'
+  Generating Code...
+  C867_assessment.vcxproj -> E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe
