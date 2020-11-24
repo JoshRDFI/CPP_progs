@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\Project04-02_VectorData\Debug\Project04-02_VectorData.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\Project04-02_VectorData\Debug\Project04-02_VectorData.pdb

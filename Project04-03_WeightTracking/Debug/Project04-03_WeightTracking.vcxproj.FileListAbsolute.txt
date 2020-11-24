@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\Project04-03_WeightTracking\Debug\Project04-03_WeightTracking.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\Project04-03_WeightTracking\Debug\Project04-03_WeightTracking.pdb
