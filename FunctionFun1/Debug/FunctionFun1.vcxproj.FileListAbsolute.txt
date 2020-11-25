@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\FunctionFun1\Debug\FunctionFun1.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\FunctionFun1\Debug\FunctionFun1.pdb
