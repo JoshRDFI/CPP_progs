@@ -1,20 +1,51 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <iomanip>
+#include <array>
+#include "degree.h"
 using namespace std;
 
+class Student
+{
+public:
+	const static int numDays = 3;
+	
+private:
+	string STUDENTID;
+	string FIRSTNAME;
+	string LASTNAME;
+	string EMAILADDRESS;
+	int AGE;
+	int NUMDAYS[numDays];
+	DegreeProgram DEGREEPROGRAM;
 
+public:
+	Student();
+	Student(string STUDENTID, string FIRSTNAME, string LASTNAME, string EMAILADDRESS, int AGE, int NUMDAYS[], DegreeProgram DEGREEPROGRAM);
+	~Student();
 
-/* JYM1 - Task 1 Class Roster
-Scripting and Programming - Applications -- C867
-Joshua Rogers
-Student ID 001386925
-jrog327@wgu.edu
-BSIT Data Science / Data Management
-Program Mentor: Katherine Cooper
-*/
+	//accessors
+	string getID();
+	string getFirstName();
+	string getLastName();
+	string getEmailAddress();
+	int getAge();
+	int* getNumDays();
+	DegreeProgram getDegreeProgram();
+	
+	//mutators
+	void setID(string STUDENTID);
+	void setFirstName(string FIRSTNAME);
+	void setLastName(string LASTNAME);
+	void setEmailAddress(string EMAILADDRESS);
+	void setAge(int AGE);
+	void setNumDays(int NUMDAYS[]);
+	void setDegreeProgram(DegreeProgram DEGREEPROGRAM);
 
-const int NUMDAYS[] = 3;
-enum class Student {STUDENTID, FIRSTNAME, LASTNAME, EMAILADDRESS, AGE, NUMDAYS[], DEGREEPROGRAM };
-string StudentStrings[] = { "Student ID", "First Name", "Last Name", "Email Address", "Age", "Number of days to complete program", "Degree Program" };
+	//misc
+	static void printHeader();
 
+	void print();
+
+};

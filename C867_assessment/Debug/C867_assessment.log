@@ -56,8 +56,8 @@ VSLANG = 1033
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
-  main.cpp
   roster.cpp
-  student.cpp
-  Generating Code...
-  C867_assessment.vcxproj -> E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(46,104): error C2664: 'void classRoster::add(std::string,std::string,std::string,std::string,int,int,int,int,DegreeProgram)': cannot convert argument 9 from 'std::string' to 'DegreeProgram'
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(46,102): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.h(19,7): message : see declaration of 'classRoster::add'
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(52,107): error C2065: 'dp': undeclared identifier

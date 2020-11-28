@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <array>
+
 using namespace std;
 
 /* JYM1 - Task 1 Class Roster
@@ -25,11 +27,14 @@ const string studentData[] =
 
 	
 	//Top of screen required info
-	cout << "Scripting and Programming - Applications -- C867" << endl;
-	cout << "C++ using MS Visual Studio Community 2019" << endl;
+	cout << "Class: Scripting and Programming - Applications -- C867" << endl;
+	cout << "Language: C++ " << endl;
 	cout << "Student ID: 001386925" << endl;
-	cout << "Joshua Rogers" << endl;
+	cout << "Name: Joshua Rogers" << endl;
 	//End of top info
+
+
+
 
 
 	return 0;
