@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <string>
 #include <iomanip>
 #include <array>
 #include "degree.h"
@@ -10,19 +9,16 @@ class Student
 {
 public:
 	const static int numDays = 3;
-	
-private:
-	string STUDENTID;
-	string FIRSTNAME;
-	string LASTNAME;
-	string EMAILADDRESS;
-	int AGE;
-	int NUMDAYS[numDays];
-	DegreeProgram DEGREEPROGRAM;
+	string studentID;
+	string firstName;
+	string lastName;
+	string emailAddress;
+	int age;
+	int numClassDays[numDays];
+	DegreeProgram dp;
 
-public:
 	Student();
-	Student(string STUDENTID, string FIRSTNAME, string LASTNAME, string EMAILADDRESS, int AGE, int NUMDAYS[], DegreeProgram DEGREEPROGRAM);
+	Student(string studentID, string firstName, string lastName, string emailAddress, int age, int numClassDays[], DegreeProgram dp);
 	~Student();
 
 	//accessors
@@ -35,13 +31,13 @@ public:
 	DegreeProgram getDegreeProgram();
 	
 	//mutators
-	void setID(string STUDENTID);
-	void setFirstName(string FIRSTNAME);
-	void setLastName(string LASTNAME);
-	void setEmailAddress(string EMAILADDRESS);
-	void setAge(int AGE);
-	void setNumDays(int NUMDAYS[]);
-	void setDegreeProgram(DegreeProgram DEGREEPROGRAM);
+	void setID(string studentID);
+	void setFirstName(string firstName);
+	void setLastName(string lastName);
+	void setEmailAddress(string emailAddress);
+	void setAge(int age);
+	void setNumDays(int numClassDays[]);
+	void setDegreeProgram(DegreeProgram dp);
 
 	//misc
 	static void printHeader();

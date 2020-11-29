@@ -1,66 +1,65 @@
 #include "student.h"
-#include "degree.h"
 using namespace std;
 
-array<int, 3> NUMDAYS;
+array<int, 3> numClassDays;
 
 Student::Student()
 {
-	this->STUDENTID = "";
-	this->FIRSTNAME = "";
-	this->LASTNAME = "";
-	this->EMAILADDRESS = "";
-	this->AGE = 0;
-	for (int i = 0; i < numDays; i++) this->NUMDAYS[i] = 0;
-	this->DEGREEPROGRAM = DegreeProgram::SOFTWARE;
+	this->studentID = "";
+	this->firstName = "";
+	this->lastName = "";
+	this->emailAddress = "";
+	this->age = 0;
+	for (int i = 0; i < numDays; i++) this->numClassDays[i] = 0;
+	this->dp = DegreeProgram::SOFTWARE;
 }
 
-Student::Student(string STUDENTID, string FIRSTNAME, string LASTNAME, string EMAILADDRESS, int AGE, int NUMDAYS[], DegreeProgram DEGREEPROGRAM)
+Student::Student(string studentID, string firstName, string lastName, string emailAddress, int age, int numClassDays[], DegreeProgram dp)
 {
-	this->STUDENTID = "STUDENTID";
-	this->FIRSTNAME = "FIRSTNAME";
-	this->LASTNAME = "LASTNAME";
-	this->EMAILADDRESS = "EMAILADDRESS";
-	this->AGE = AGE;
-	for (int i = 0; i < numDays; i++) this->NUMDAYS[i]=NUMDAYS[i];
-	this->DEGREEPROGRAM = DEGREEPROGRAM;
+	this->studentID = "STUDENTID";
+	this->firstName = "FIRSTNAME";
+	this->lastName = "LASTNAME";
+	this->emailAddress = "EMAILADDRESS";
+	this->age = 0;
+	for (int i = 0; i < numDays; i++) this->numClassDays[i]=numClassDays[i];
+	this->dp = DegreeProgram::SOFTWARE;
 }
 
 Student::~Student() {} //generic destructor since it's not necessary
 
 string Student::getID() 
 	{ 
-	return this->STUDENTID; 
+	return this->studentID;
 	}
 
 string Student::getFirstName() 
 	{ 
-	return this->FIRSTNAME; 
+	return this->firstName;
 	}
 
 string Student::getLastName() 
 	{
-	return this->LASTNAME; 
+	return this->lastName;
 	}
 
 string Student::getEmailAddress()
 	{ 
-	return this->EMAILADDRESS; 
+	return this->emailAddress;
 	}
 
 int Student::getAge() 
 	{ 
-	return this->AGE; 
+	return this->age; 
 	}
 
 int* Student::getNumDays() 
 	{ 
-	return this->NUMDAYS; 
+	return this->numClassDays; 
 	}
 
 DegreeProgram Student::getDegreeProgram() 
 	{ 
-	return this->DEGREEPROGRAM;	
+	return this->dp;	
 	}
 
 void Student::printHeader()
@@ -79,4 +78,9 @@ void Student::print()
 	cout << this->getNumDays()[1] << ", ";
 	cout << this->getNumDays()[2] << " | ";
 	cout << this->getDegreeProgram() << endl;
+}
+
+void Student::setDegreeProgram(DegreeProgram dp)
+{
+	cout << "Just in case nonsense!" << endl;
 }

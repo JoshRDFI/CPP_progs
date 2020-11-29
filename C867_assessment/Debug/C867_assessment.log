@@ -56,8 +56,11 @@ VSLANG = 1033
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5351,5): warning MSB3061: Unable to delete file "E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe". Access to the path 'E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe' is denied.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Access to the path 'e:\programming\repos\c++ dev course\cpp_progs\c867_assessment\debug\c867_assessment.exe' is denied.
+  main.cpp
   roster.cpp
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(46,104): error C2664: 'void classRoster::add(std::string,std::string,std::string,std::string,int,int,int,int,DegreeProgram)': cannot convert argument 9 from 'std::string' to 'DegreeProgram'
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(46,102): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.h(19,7): message : see declaration of 'classRoster::add'
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(52,107): error C2065: 'dp': undeclared identifier
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(90,125): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'const unsigned int' can equal the given constant
+  student.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe'
