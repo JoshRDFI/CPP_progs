@@ -1,1 +1,2 @@
 E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.pdb

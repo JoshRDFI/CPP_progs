@@ -15,10 +15,10 @@ public:
 	string emailAddress;
 	int age;
 	int numClassDays[numDays];
-	DegreeProgram dp;
+	DegreeProgram degreeProgram;
 
 	Student();
-	Student(string studentID, string firstName, string lastName, string emailAddress, int age, int numClassDays[], DegreeProgram dp);
+	Student(string studentID, string firstName, string lastName, string emailAddress, int age, int numClassDays[], DegreeProgram degreeProgram);
 	~Student();
 
 	//accessors
@@ -43,5 +43,4 @@ public:
 	static void printHeader();
 
 	void print();
-
 };

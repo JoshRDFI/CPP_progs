@@ -32,7 +32,7 @@ ProgramFiles(x86) = C:\Program Files (x86)
 ProgramW6432 = C:\Program Files
 PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\Wired Networking\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
 PUBLIC = C:\Users\Public
-ServiceHubLogSessionKey = AB1090F4
+ServiceHubLogSessionKey = 3143813D
 SESSIONNAME = Console
 SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
 SW_SIM_MPIT = INTELMPI
@@ -56,11 +56,5 @@ VSLANG = 1033
 VSSKUEDITION = Community
 windir = C:\WINDOWS
 
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5351,5): warning MSB3061: Unable to delete file "E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe". Access to the path 'E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe' is denied.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Access to the path 'e:\programming\repos\c++ dev course\cpp_progs\c867_assessment\debug\c867_assessment.exe' is denied.
   main.cpp
-  roster.cpp
-E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\roster.cpp(90,125): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'const unsigned int' can equal the given constant
-  student.cpp
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe'
+  C867_assessment.vcxproj -> E:\Programming\Repos\c++ dev course\CPP_progs\C867_assessment\Debug\C867_assessment.exe

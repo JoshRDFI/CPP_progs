@@ -1,7 +1,4 @@
 #pragma once
-//#include <iostream>
-//#include <string>
-//#include <array>
 #include "student.h"
 using namespace std;
 
