@@ -8,11 +8,11 @@ using namespace std;
 
 /* JYM1 - Task 1 Class Roster
 Scripting and Programming - Applications -- C867
-Joshua Rogers
-Student ID 001386925
-jrog327@wgu.edu
+Fname Lname
+Student ID 00000000
+myemail@myschool.edu
 BSIT Data Science / Data Management
-Program Mentor: Katherine Cooper
+Program Mentor: 
 */
 
 
@@ -24,7 +24,7 @@ const string studentData[] =
 "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
 "A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
 "A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
-"A5,Josh,Rogers,jrog327@wgu.edu,47,15,20,14,SOFTWARE" };
+"A5,Fname,Lname,myemail@myschool.edu,00,15,20,14,SOFTWARE" };
 
 const int numStu = 5;
 	
@@ -32,8 +32,8 @@ const int numStu = 5;
 cout << "-----------------------------" << endl;
 cout << "Class: Scripting and Programming - Applications -- C867" << endl;
 cout << "Language: C++ " << endl;
-cout << "Student ID: 001386925" << endl;
-cout << "Name: Joshua Rogers" << endl;
+cout << "Student ID: 000000000" << endl;
+cout << "Name: Fname Lname" << endl;
 cout << "-----------------------------" << endl;
 cout << endl;
 //End of top info

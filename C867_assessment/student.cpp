@@ -69,15 +69,6 @@ void Student::printHeader()
 
 void Student::print()
 {
-	//cout << getID() << " \t ";
-	//cout << getFirstName() << " \t ";
-	//cout << getLastName() << " \t ";
-	//cout << getAge() << " \t ";
-	//cout << "{"<< getNumDays()[0] << ", ";
-	//cout << getNumDays()[1] << ", ";
-	//cout << getNumDays()[2] << "} \t ";
-	//cout << DegreeProgramStrings[getDegreeProgram()] << endl;
-
 	cout << this->getID() << " \t ";
 	cout << this->getFirstName() << " \t ";
 	cout << this->getLastName() << " \t ";
