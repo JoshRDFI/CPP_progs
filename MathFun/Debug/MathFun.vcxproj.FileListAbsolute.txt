@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\MathFun\Debug\MathFun.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\MathFun\Debug\MathFun.pdb
