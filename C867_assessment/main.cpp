@@ -15,6 +15,7 @@ BSIT Data Science / Data Management
 Program Mentor: Katherine Cooper
 */
 
+
 int main()
 {
 const string studentData[] =
@@ -43,28 +44,31 @@ for (int i = 0; i < numStu; i++) classRoster.parse(studentData[i]);
 classRoster.printAll();
 cout << endl;
 
-for (int i = 0; i < 3; i++)
-{
-	cout << "Displaying students by Degree Program: " << DegreeProgramStrings[i] << endl;
-	classRoster.printByDegreeProgram((DegreeProgram)i);
-}
-
-cout << "Displaying students with an invalid email address." << endl;
+cout << "Displaying students with an invalid email address:" << endl;
 classRoster.printInvalidEmails();
 cout << endl;
 
-cout << "Displaying average number of days to complete degree" << endl;
+cout << "Displaying average number of days to complete degree:" << endl;
 for (int i = 0; i < numStu; i++)
 {
 	classRoster.printAverageDaysInCourse(classRoster.classRosterArray[i]->getID());
 }
-
 cout << endl;
-cout << "Removing student A3" << endl;
+
+for (int i = 0; i < 3; i++)
+{
+	if (DegreeProgramStrings[i] == "SOFTWARE")
+	{
+		cout << "Displaying students by Degree Program: " << DegreeProgramStrings[i] << endl;
+		classRoster.printByDegreeProgram((DegreeProgram)i);
+	}
+}
+
+cout << "Removing student A3:" << endl;
 classRoster.removeStuByID("A3");
 cout << endl;
 
-cout << "Checking on removal of student A3." << endl;
+cout << "Checking on removal of student A3:" << endl;
 classRoster.removeStuByID("A3");
 cout << endl;
 

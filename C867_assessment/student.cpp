@@ -29,7 +29,7 @@ Student::Student(string studentID, string firstName, string lastName, string ema
 Student::~Student() {} 
 
 //accessors
-string Student::getID() {return this->studentID;}
+string Student::getID() {return this-> studentID;}
 
 string Student::getFirstName() {return this->firstName;}
 
@@ -69,11 +69,20 @@ void Student::printHeader()
 
 void Student::print()
 {
+	//cout << getID() << " \t ";
+	//cout << getFirstName() << " \t ";
+	//cout << getLastName() << " \t ";
+	//cout << getAge() << " \t ";
+	//cout << "{"<< getNumDays()[0] << ", ";
+	//cout << getNumDays()[1] << ", ";
+	//cout << getNumDays()[2] << "} \t ";
+	//cout << DegreeProgramStrings[getDegreeProgram()] << endl;
+
 	cout << this->getID() << " \t ";
 	cout << this->getFirstName() << " \t ";
 	cout << this->getLastName() << " \t ";
 	cout << this->getAge() << " \t ";
-	cout << "{"<< this->getNumDays()[0] << ", ";
+	cout << "{" << this->getNumDays()[0] << ", ";
 	cout << this->getNumDays()[1] << ", ";
 	cout << this->getNumDays()[2] << "} \t ";
 	cout << DegreeProgramStrings[this->getDegreeProgram()] << endl;

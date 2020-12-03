@@ -57,6 +57,8 @@ void classRoster::add(string studentID, string firstName, string lastName, strin
 void classRoster::printAll()
 {
 	Student::printHeader();
+	//Student::print();
+
 	for (int i = 0; i <= classRoster::lastIndex; i++)
 	{
 		cout << "Student ID: " << classRosterArray[i]->getID(); cout << '\t';

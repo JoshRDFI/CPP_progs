@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\ScopeChallenge\Debug\ScopeChallenge.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\ScopeChallenge\Debug\ScopeChallenge.pdb
