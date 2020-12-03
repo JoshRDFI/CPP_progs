@@ -1,0 +1,2 @@
+E:\Programming\Repos\c++ dev course\CPP_progs\CountDown\Debug\CountDown.exe
+E:\Programming\Repos\c++ dev course\CPP_progs\CountDown\Debug\CountDown.pdb
